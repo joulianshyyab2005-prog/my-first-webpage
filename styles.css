@@ -1,0 +1,67 @@
+/* Task 2: Basic Page Styling */
+body {
+    font-family: Arial, sans-serif; /* Sets default font-family */
+    background-color: #eef2f3;      /* Sets background color */
+    padding: 40px;                 /* Adds padding to the page */
+}
+
+/* Creating the form container */
+form {
+    background-color: white;       /* Background for the form box */
+    padding: 25px;                /* Padding inside the box */
+    border-radius: 8px;           /* Rounded corners */
+    max-width: 450px;             /* Box width */
+    margin: 0 auto;               /* Centers the form on the page */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+}
+
+/* Task 2 & 3: Text Formatting */
+h1 {
+    text-align: center;           /* Centers the heading */
+    color: #333;
+}
+
+label {
+    display: block;               /* Puts labels on their own line */
+    font-weight: 600;             /* Bold labels (Task 3) */
+    margin-top: 15px;             /* Space above each label */
+    line-height: 1.6;             /* Improves readability (Task 3) */
+}/* Task 2 & 4: Styling the Input Fields */
+input {
+    width: 100%;             /* Makes them full width (Task 2) */
+    padding: 10px;           /* Adds space inside the box (Task 4) */
+    margin-top: 5px;         /* Space between label and input */
+    margin-bottom: 15px;     /* Space between different fields (Task 4) */
+    border: 1px solid #ccc;  /* Light gray border */
+    border-radius: 4px;      /* Rounded corners (Task 2) */
+    box-sizing: border-box;  /* Ensures padding doesn't break the width */
+}
+
+/* Task 2: Styling the Submit Button */
+button[type="submit"] {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Change color when mouse hovers over it (Task 2) */
+button[type="submit"]:hover {
+    background-color: #218838; /* Darker green */
+}/* Task 5: Responsive Layout with Flexbox */
+.button-container {
+    display: flex;          /* Makes buttons sit side-by-side */
+    gap: 10px;              /* Adds space between the buttons */
+    justify-content: center; /* Centers the buttons in the form */
+    margin-top: 20px;
+}
+
+/* Task 6: Footer styling */
+footer {
+    text-align: center;
+    font-size: 0.8em;       /* Makes footer text smaller */
+    margin-top: 30px;
+    color: #777;
+}

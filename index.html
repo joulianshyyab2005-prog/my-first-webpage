@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Lab 2</title>
-    <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <h1>Check the Console for Results</h1>
-</body>
+    <h1>Registration Form</h1>
+    </body><form>
+    <label>Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Password:</label>
+    <input type="password" name="password" required>
+
+    <div class="button-container">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+</form>
+
+<footer>
+    <p>© 2024 My Registration Page</p>
+</footer>
 </html>
