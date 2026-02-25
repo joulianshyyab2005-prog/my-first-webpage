@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>JS Functions Lab</title>
-    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <title>Async Fetching Lab</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 1.6; background-color: #f4f4f4; }
+        .output-box { border: 1px solid #ccc; padding: 15px; margin-top: 20px; border-radius: 8px; background: white; min-height: 100px; }
+        .post { margin: 15px 0; border-left: 4px solid #007bff; padding-left: 15px; background: #f9f9f9; padding: 10px; }
+        .comment { font-size: 0.9em; color: #555; margin-left: 20px; font-style: italic; }
+        button { padding: 10px 15px; cursor: pointer; margin-right: 10px; border-radius: 5px; border: 1px solid #333; background: #fff; }
+        button:hover { background: #e0e0e0; }
+    </style>
 </head>
 <body>
-    <h1>Check the Console for Output</h1>
-    <p>Right-click this page, select "Inspect", and click "Console".</p>
+    <h1>User Data Fetcher</h1>
+    
+    <button id="sequentialBtn">Sequential Fetch (Slow)</button>
+    <button id="parallelBtn">Parallel Fetch (Fast)</button>
+
+    <div id="results" class="output-box">
+        Results will appear here...
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
